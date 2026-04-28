@@ -1,0 +1,18 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "honghong"
+compatibility_date = "2024-11-06"
+
+[vars]
+# 环境变量将在 Cloudflare Dashboard 中设置
+NEXTAUTH_SECRET = ""
+NEXTAUTH_URL = ""
+
+[[d1_databases]]
+binding = "DB"
+database_name = "honghong-db"
+database_id = "your-database-id-here"
+
+# D1 迁移文件夹
+[migrations]
+path = "drizzle/d1"
+
