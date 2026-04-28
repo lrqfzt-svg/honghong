@@ -12,7 +12,3 @@ binding = "DB"
 database_name = "honghong-db"
 database_id = "your-database-id-here"
 
-# D1 迁移文件夹
-[migrations]
-path = "drizzle/d1"
-
